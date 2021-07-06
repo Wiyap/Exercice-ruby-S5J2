@@ -6,7 +6,7 @@ email_box = []
     else
         email_box = email_box.push("jean.dupont.#{i+1}@email.fr")
     end
-    if ((i%2) == 0) && (i >= 0)
-        puts email_box[i-1]
+    if (((i+1)%2) == 0) && (i >= 1)
+        puts email_box[i]
     end
 end
